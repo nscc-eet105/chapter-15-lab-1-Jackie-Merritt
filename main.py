@@ -18,4 +18,11 @@ sales2 = employee.Salesperson('Judy Jetson', 30, 22.50, 4750.00, .05)
     above. Use a single loop to to print the data from each object and the
     results of the calc_pay method for each of them.
 '''
+employee_info = [employee1, employee2, sales1, sales2]
 
+for people in employee_info:
+    print(people)
+    people.display_total_pay()
+    print()
+
+    
